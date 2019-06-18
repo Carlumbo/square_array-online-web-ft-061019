@@ -1,8 +1,7 @@
-def square_array(array)
-  new_array = []
-  array.each {|balls| new_array << balls ** 2   }
-  new_array
+def square_array(old_balls)
+  new_balls = []
+  old_balls.each {|balls| new_balls << balls ** 2   }
+  new_balls 
 end
 
 numbers = [1,2,3]
-square_array(numbers)
