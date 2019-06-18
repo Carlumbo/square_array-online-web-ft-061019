@@ -3,3 +3,6 @@ def sqaure_array(old_balls)
   old_balls.each {|balls| new_balls << balls ** 2   }
   new_balls 
 end
+
+numbers = [1,2,3]
+square_array(numbers)
