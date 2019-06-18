@@ -5,3 +5,4 @@ def square_array(old_balls)
 end
 
 numbers = [1,2,3]
+square_array(numbers)
