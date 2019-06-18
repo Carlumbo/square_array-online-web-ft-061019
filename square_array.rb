@@ -7,6 +7,6 @@ def square_array(array)
       new_array
     end
 end
-
+=begin
 numbers = [1,2,3]
 square_array(numbers)
