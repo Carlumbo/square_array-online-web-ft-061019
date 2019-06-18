@@ -1,7 +1,7 @@
-def sqaure_array(old_balls)
-  new_balls = []
-  old_balls.each {|balls| new_balls << balls ** 2   }
-  new_balls 
+def sqaure_array(array)
+  new_array = []
+  array.each {|balls| new_array << array ** 2   }
+  new_array
 end
 
 numbers = [1,2,3]
